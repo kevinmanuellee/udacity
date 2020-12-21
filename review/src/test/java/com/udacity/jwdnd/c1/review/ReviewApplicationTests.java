@@ -46,7 +46,7 @@ class ReviewApplicationTests {
 
 		ChatPage chatPage = new ChatPage(driver);
 		String displayedMessage = chatPage.getDisplayMessages("test", "Shout");
-		assertEquals(username + ":" + "TEST", displayedMessage);
+		assertEquals(username + " : " + "TEST", displayedMessage);
 	}
 
 }

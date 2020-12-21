@@ -41,7 +41,10 @@ public class ChatPage {
 
     public String getDisplayMessages(String text, String type){
         updateMessage(text, type);
-        displayMessages.
-        return displayMessages.toString();
+        String updatedMessage = "";
+        for(WebElement displayText : displayMessages){
+            updatedMessage = displayText.getText();
+        }
+        return updatedMessage;
     }
 }
