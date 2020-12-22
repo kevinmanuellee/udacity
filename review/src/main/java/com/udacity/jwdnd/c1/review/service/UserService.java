@@ -2,8 +2,6 @@ package com.udacity.jwdnd.c1.review.service;
 
 import com.udacity.jwdnd.c1.review.mapper.UserMapper;
 import com.udacity.jwdnd.c1.review.model.User;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.security.SecureRandom;
