@@ -46,7 +46,5 @@ public class SignupPage {
         this.password.sendKeys(password);
         this.submitButton.click();
         this.loginLink.click();
-
-//        return new LoginPage(this.driver, username, password);
     }
 }
