@@ -15,7 +15,7 @@ import java.util.List;
 public class DogController {
     private DogService dogService;
 
-    @Autowired
+//    @Autowired
     public void setDogService(DogService dogService) {
         this.dogService = dogService;
     }

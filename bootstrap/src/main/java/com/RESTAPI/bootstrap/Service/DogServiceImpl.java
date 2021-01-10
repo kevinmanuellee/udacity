@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 public class DogServiceImpl implements DogService {
-    @Autowired
+//    @Autowired
     private DogRepository dogRepository;
 
     @Override

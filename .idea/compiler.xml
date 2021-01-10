@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DogGraphQL" />
         <module name="bootstrap" />
         <module name="cloudstorage" />
         <module name="review" />
@@ -16,14 +17,22 @@
       <module name="bootstrap" target="11" />
       <module name="cloudstorage" target="11" />
       <module name="course1" target="15" />
+      <module name="DogGraphQL" target="11" />
+      <module name="DogGraphQL (1)" target="11" />
+      <module name="DogRestApi" target="11" />
+      <module name="graphql" target="11" />
       <module name="review" target="15" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DogGraphQL" options="-parameters" />
+      <module name="DogGraphQL (1)" options="-parameters" />
+      <module name="DogRestApi" options="-parameters" />
       <module name="bootstrap" options="-parameters" />
       <module name="cloudstorage" options="-parameters" />
       <module name="course1" options="-parameters" />
+      <module name="graphql" options="-parameters" />
       <module name="review" options="-parameters" />
     </option>
   </component>
