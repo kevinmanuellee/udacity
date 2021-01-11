@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/course1/pom.xml" />
         <option value="$PROJECT_DIR$/bootstrap/pom.xml" />
         <option value="$PROJECT_DIR$/DogGraphQL/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
       </list>
     </option>
   </component>

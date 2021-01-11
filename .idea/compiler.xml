@@ -10,6 +10,7 @@
         <module name="bootstrap" />
         <module name="cloudstorage" />
         <module name="review" />
+        <module name="eureka" />
         <module name="course1" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="DogGraphQL" target="11" />
       <module name="DogGraphQL (1)" target="11" />
       <module name="DogRestApi" target="11" />
+      <module name="eureka" target="11" />
       <module name="graphql" target="11" />
       <module name="review" target="15" />
     </bytecodeTargetLevel>
@@ -32,6 +34,7 @@
       <module name="bootstrap" options="-parameters" />
       <module name="cloudstorage" options="-parameters" />
       <module name="course1" options="-parameters" />
+      <module name="eureka" options="-parameters" />
       <module name="graphql" options="-parameters" />
       <module name="review" options="-parameters" />
     </option>
