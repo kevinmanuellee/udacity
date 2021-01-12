@@ -8,10 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DogGraphQL" />
         <module name="bootstrap" />
-        <module name="cloudstorage" />
-        <module name="review" />
         <module name="eureka" />
-        <module name="course1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -4,10 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DogGraphQL/DogGraphQL.iml" filepath="$PROJECT_DIR$/DogGraphQL/DogGraphQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/bootstrap/bootstrap.iml" filepath="$PROJECT_DIR$/bootstrap/bootstrap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nd035-c1-spring-boot-basics-project-starter/starter/cloudstorage/cloudstorage.iml" filepath="$PROJECT_DIR$/nd035-c1-spring-boot-basics-project-starter/starter/cloudstorage/cloudstorage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/course1/course1.iml" filepath="$PROJECT_DIR$/course1/course1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/review/review.iml" filepath="$PROJECT_DIR$/review/review.iml" />
     </modules>
   </component>
 </project>
