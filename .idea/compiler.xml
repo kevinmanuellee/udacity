@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DogGraphQL" />
-        <module name="eureka" />
+        <module name="DogMicroservice" />
         <module name="bootstrap" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="course1" target="15" />
       <module name="DogGraphQL" target="11" />
       <module name="DogGraphQL (1)" target="11" />
+      <module name="DogMicroservice" target="11" />
       <module name="DogRestApi" target="11" />
       <module name="eureka" target="11" />
       <module name="graphql" target="11" />
@@ -27,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="DogGraphQL" options="-parameters" />
       <module name="DogGraphQL (1)" options="-parameters" />
+      <module name="DogMicroservice" options="-parameters" />
       <module name="DogRestApi" options="-parameters" />
       <module name="bootstrap" options="-parameters" />
       <module name="cloudstorage" options="-parameters" />

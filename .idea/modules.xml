@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DogGraphQL/DogGraphQL.iml" filepath="$PROJECT_DIR$/DogGraphQL/DogGraphQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DogMicroservice/DogMicroservice.iml" filepath="$PROJECT_DIR$/DogMicroservice/DogMicroservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/bootstrap/bootstrap.iml" filepath="$PROJECT_DIR$/bootstrap/bootstrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
     </modules>
