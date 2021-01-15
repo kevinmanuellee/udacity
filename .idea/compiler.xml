@@ -8,13 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DogGraphQL" />
         <module name="DogMicroservice" />
+        <module name="ConsumingRestApi" />
         <module name="bootstrap" />
+        <module name="DogRestApi" />
         <module name="eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bootstrap" target="11" />
       <module name="cloudstorage" target="11" />
+      <module name="ConsumingRestApi" target="11" />
       <module name="course1" target="15" />
       <module name="DogGraphQL" target="11" />
       <module name="DogGraphQL (1)" target="11" />
@@ -27,6 +30,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConsumingRestApi" options="-parameters" />
       <module name="DogGraphQL" options="-parameters" />
       <module name="DogGraphQL (1)" options="-parameters" />
       <module name="DogMicroservice" options="-parameters" />
