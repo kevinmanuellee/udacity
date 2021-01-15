@@ -2,6 +2,8 @@ package com.RESTAPI.bootstrap.Controller;
 
 import com.RESTAPI.bootstrap.Entity.Dog;
 import com.RESTAPI.bootstrap.Service.DogService;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@ApiResponses(value={
+        @ApiResponse(code=400, message="this ia a bad request, please go to www.google.com"),
+        @ApiResponse(code=401, message="this ia an unauthorized request, please go to www.google.com"),
+        @ApiResponse(code=500, message="the server is down, please go to www.google.com")
+})
 public class DogController {
     private DogService dogService;
 
