@@ -39,4 +39,13 @@ public class Joke {
     public void setCategories(List<String> categories) {
         this.categories = categories;
     }
+
+    @Override
+    public String toString() {
+        return "Joke{" +
+                "id=" + id +
+                ", joke='" + joke + '\'' +
+                ", categories=" + categories +
+                '}';
+    }
 }

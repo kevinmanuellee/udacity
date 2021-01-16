@@ -9,12 +9,12 @@ import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.logging.Logger;
+import org.slf4j.Logger;
 
 @SpringBootApplication
 public class ConsumingRestApiApplication {
 
-	private static final Logger log = (Logger) LoggerFactory.getLogger(ConsumingRestApiApplication.class);
+	private static final Logger log = LoggerFactory.getLogger(ConsumingRestApiApplication.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumingRestApiApplication.class, args);
