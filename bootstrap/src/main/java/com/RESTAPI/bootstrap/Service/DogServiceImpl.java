@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 public class DogServiceImpl implements DogService {
-//    @Autowired
+    @Autowired
     private DogRepository dogRepository;
 
     @Override
@@ -30,5 +30,10 @@ public class DogServiceImpl implements DogService {
     @Override
     public List<String> retrieveDogNames() {
         return dogRepository.findDogNames();
+    }
+
+    @Override
+    public Dog retrieveDogById(Long id) {
+        return (Dog) dogRepository.findById(id).get();
     }
 }

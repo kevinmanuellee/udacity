@@ -22,7 +22,7 @@ import java.util.List;
 public class DogController {
     private DogService dogService;
 
-//    @Autowired
+    @Autowired
     public void setDogService(DogService dogService) {
         this.dogService = dogService;
     }
@@ -31,6 +31,12 @@ public class DogController {
     public ResponseEntity<List<Dog>> getListOfDogs(){
         List<Dog> list = dogService.retrieveAllDogs();
         return new ResponseEntity<List<Dog>>(list, HttpStatus.OK);
+    }
+
+    @GetMapping("{id}/dogs")
+    public ResponseEntity<Dog> getDog(@PathVariable Long id){
+        Dog dog = dogService.retrieveDogById(id);
+        return new ResponseEntity<Dog>(dog, HttpStatus.OK);
     }
 
     @GetMapping("/dogs/breed")
