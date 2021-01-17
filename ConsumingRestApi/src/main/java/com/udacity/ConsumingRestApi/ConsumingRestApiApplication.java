@@ -1,6 +1,7 @@
 package com.udacity.ConsumingRestApi;
 
 import com.udacity.ConsumingRestApi.Entity.Joke;
+import com.udacity.ConsumingRestApi.Entity.Response;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -28,8 +29,9 @@ public class ConsumingRestApiApplication {
 	@Bean
 	public CommandLineRunner run(RestTemplate restTemplate){
 		return args -> {
-			Joke joke = restTemplate.getForObject("https://api.icndb.com/jokes/random", Joke.class);
-			log.info(joke.toString());
+			Response response = restTemplate.getForObject("https://api.icndb.com/jokes/random", Response.class);
+//			Joke joke = restTemplate.getForObject("https://api.icndb.com/jokes/random", Joke.class);
+			log.info(response.getValue().toString());
 		};
 	}
 }
