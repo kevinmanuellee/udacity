@@ -3,12 +3,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/bootstrap/pom.xml" />
-        <option value="$PROJECT_DIR$/DogGraphQL/pom.xml" />
-        <option value="$PROJECT_DIR$/DogMicroservice/pom.xml" />
-        <option value="$PROJECT_DIR$/SecureDogApi/pom.xml" />
-        <option value="$PROJECT_DIR$/ConsumingRestApi/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/course3/pom.xml" />
       </list>
     </option>
   </component>

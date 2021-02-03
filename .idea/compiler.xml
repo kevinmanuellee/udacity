@@ -6,12 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DogGraphQL" />
-        <module name="DogMicroservice" />
-        <module name="ConsumingRestApi" />
-        <module name="bootstrap" />
-        <module name="DogRestApi" />
-        <module name="eureka" />
+        <module name="course3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +14,7 @@
       <module name="cloudstorage" target="11" />
       <module name="ConsumingRestApi" target="11" />
       <module name="course1" target="15" />
+      <module name="course3" target="11" />
       <module name="DogGraphQL" target="11" />
       <module name="DogGraphQL (1)" target="11" />
       <module name="DogMicroservice" target="11" />
@@ -38,6 +34,7 @@
       <module name="bootstrap" options="-parameters" />
       <module name="cloudstorage" options="-parameters" />
       <module name="course1" options="-parameters" />
+      <module name="course3" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="graphql" options="-parameters" />
       <module name="review" options="-parameters" />
