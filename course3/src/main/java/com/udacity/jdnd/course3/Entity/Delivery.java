@@ -30,6 +30,15 @@ public class Delivery {
     @OneToMany(mappedBy = "delivery", cascade = CascadeType.ALL)
     private List<Plant> plants;
 
+    public Delivery() {
+    }
+
+    public Delivery(String name, String address, LocalDate deliverDate) {
+        this.name = name;
+        this.address = address;
+        this.deliverDate = deliverDate;
+    }
+
     //GETTER AND SETTER
     public Long getId() {
         return id;

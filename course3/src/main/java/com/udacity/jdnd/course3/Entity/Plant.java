@@ -26,6 +26,13 @@ public class Plant {
     @JoinColumn(name = "delivery_id")
     private Delivery delivery;
 
+    public Plant() {}
+
+    public Plant(String name, BigDecimal price) {
+        this.name = name;
+        this.price = price;
+    }
+
     //GETTER AND SETTER
     public Long getId() {
         return id;
